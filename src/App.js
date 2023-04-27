@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./Components/Background/Background.css";
+import NavBar from "./Components/NavBar/NavBar.js";
+import Text from "./Components/Text/Text.js";
+import {BrowserRouter,Routes,Route,useLocation} from "react-router-dom"
+import Acercademi from "./Components/Paginas/Acercademi"
 
-function App() {
+function App( ) {
+
+  const location = useLocation()
+  
   return (
+    <BrowserRouter>
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <NavBar/>
+
+
+    <Routes>
+  
+    <Route exact path="*" element={<Text/>}/>
+    <Route exact path="/acercademi" element={<Acercademi/>}/>
+    
+    </Routes>
     </div>
+
+
+    </BrowserRouter>
   );
 }
 

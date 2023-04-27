@@ -1,0 +1,28 @@
+.arg{
+
+    width: 30px;
+}
+
+.eeuu{
+
+    width:30px;
+}
+
+.color1{
+
+background-color: transparent;
+outline: cyan
+
+}
+
+.color1:hover {
+
+    background-color:transparent;
+    outline: none;
+}
+
+.tamaño{
+display: flex;
+padding: 0;
+justify-content: center;
+}

@@ -1,0 +1,9 @@
+.section_main_h1{ 
+
+font-family: 'Archivo', sans-serif;
+font-family: 'Lobster', cursive;
+display: flex;
+justify-content: center;
+margin-top: 10rem;
+
+}
