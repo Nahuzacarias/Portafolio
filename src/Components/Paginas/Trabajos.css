@@ -1,0 +1,28 @@
+.trabajo2{
+width: 100rem;
+}
+
+.trabajo1{
+
+
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+
+
+.trabajo5{
+
+display: flex;
+justify-content: space-around;
+margin-top: 4rem;
+
+}
+
+.imgalfa{
+
+    size: 10rem;
+}
+
+

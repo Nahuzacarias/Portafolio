@@ -1,6 +1,13 @@
-.posicion{
-width: 40%;
-margin: 10rem;
-    font-size: 1.6rem;
+.posicion {
 
+    font-size: 1.6rem;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Lobster', cursive;
+    margin: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
+

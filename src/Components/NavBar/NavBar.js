@@ -7,18 +7,16 @@ import { useTranslation } from "react-i18next";
 import Button from "../traslations/Button/Button.js"
 import { Link } from "react-router-dom";
 
-function NavBar({ subrayado, onsetUnderline }) {
+function NavBar({ subrayado, onsetUnderline,icon}) {
     const [t, i18n] = useTranslation("global");
 
     const [Underline, setUnderline] = useState(false);
     const [Underline2, setUnderline2] = useState(false);
-    const [Underline3, setUnderline3] = useState(false);
     const [Underline4, setUnderline4] = useState(false);
 
 
     const subr = Underline ? "subrayado" : "";
     const subr2 = Underline2 ? "subrayado" : "";
-    const subr3 = Underline3 ? "subrayado" : "";
     const subr4 = Underline4 ? "subrayado" : "";
 
     return (
@@ -46,7 +44,7 @@ function NavBar({ subrayado, onsetUnderline }) {
                                     </Nav.Link>
                                 </li>
 
-                                <li className="nav-item">
+                                <li className="nav-item ">
                                     <Nav.Link
                                         as={Link}
                                         to="/acercademi"
@@ -60,33 +58,25 @@ function NavBar({ subrayado, onsetUnderline }) {
                                 </li>
 
 
-                                <li className="nav-item clase_header__1">
+                                <li className="nav-item ">
                                     <Nav.Link
                                         as={Link}
-                                        to="/acercademi"
-                                        className={`nav-link  ${subr}`}
+                                        to="/trabajos"
+                                        className={`nav-link  clase_header__1 ${subr}`}
                                         onMouseOver={() => setUnderline(!subrayado)}
                                         onMouseOut={() => setUnderline(subrayado)}
                                     >
                                         {t("projects.projects")}{" "}
                                     </Nav.Link>
                                 </li>
-                                <li clasName="nav-item clase_header__1">
-                                    <Nav.Link
-                                        className={`nav-link Link ${subr3}`}
-                                        onMouseOver={() => setUnderline3(!subrayado)}
-                                        onMouseOut={() => setUnderline3(subrayado)}
-                                        href="#"
-                                    >
-                                        {t("contacto.contacto")}
-                                    </Nav.Link>
-                                </li>
                             </Nav>
                         </ul>
                     </container>
                 </div>
-                <div>
-                    <Button />
+                
+                <div className="bar2">
+                
+                <Button/>
                 </div>
             </header>
         </>

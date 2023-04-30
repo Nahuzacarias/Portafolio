@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 6rem;
+    
 
 }
 
@@ -19,6 +20,10 @@
 
     border-right-style: solid;
     border-right-color: rgba(3, 189, 96, 0.795);
+    font-family: 'Braah One', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-size: 13px;
+color: rgb(255, 68, 0)
 }
 
 .subrayado {
@@ -55,3 +60,13 @@ background: -moz-linear-gradient(90deg,#00ff8b 0%, #00e9ff 80%);
     justify-content: flex-start;
 
 }
+
+.clase_header__2{
+
+    font-family: 'Braah One', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-size: 17px;
+color: rgb(255, 68, 0)
+
+}
+
