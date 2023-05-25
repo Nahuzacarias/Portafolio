@@ -1,75 +1,83 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import { motion } from 'framer-motion';
 import "./Trabajos.css"
-import alfa from "../../Assets/alfa.png"
 import js from "../../Assets/js.png"
-
+import alfa from "../../Assets/alfa.png"
+import Button from 'react-bootstrap/Button';
+import react from "../../Assets/react.png"
+import backend from "../../Assets/backend.png"
 
 const Trabajos = () => {
 
 
-  return (
-    <motion.div 
-              initial={{width: 0}}
-              animate={{width:"100%"}}
-              exit={{x: window.innerWidth, transition :{duration:0.1}}}>
-    <div className='trabajo1'>
-    
-      <Card className='trabajo2' >
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>EN CONSTRUCCIÓN</Card.Title>
-        <Card.Text>
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    
-    </div>
+    return (
+        <motion.div
+            initial={{ width: 0 }}
+            animate={{ width: "100%" }}
+            exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}>
 
-<section className='trabajo5'>
-    <div className='trabajo3'>
-    
-      <Card className='trabajo4' >
-      <Card.Img variant="top " style={{ width: '50rem' }} src={alfa} />
-      
-    </Card>
-    
-    </div>
+            <section className='container grid'>
+                <div class="contenedor">
+                    <a href="http://alfafitness.netlify.app" target='blank'>
+                        <figure>
+                            <img src={alfa} alt="img" />
+                            <div class="capa">
+                                <h3>Desarrollo web</h3>
+                                <Button variant="secondary" disabled>HTML5</Button>{' '}
+                                <Button variant="secondary" disabled>CSS3</Button>{' '}
+                                <Button variant="secondary" disabled>SASS</Button>{' '}
+                                <Button variant="secondary" disabled>RESPONSIVE</Button>{' '}
+                                <Button variant="secondary" disabled>BOOTSTRAP</Button>{' '}
+                            </div>
+                        </figure>
+                    </a>
+                </div>
+                <div class="contenedor">
+                    <a href="https://tubular-kleicha-96bf74.netlify.app" target='blank'>
+                        <figure>
+                            <img src={js} alt="img" />
+                            <div class="capa">
+                                <h3>Javascript</h3>
+                                <Button variant="secondary" disabled>JAVASCRIPT</Button>{' '}
+                                <Button variant="secondary" disabled>PROGRAMACIÓN ORIENTADO A OBJETOS</Button>{' '}
+                            </div>
+                        </figure>
+                    </a>
+                </div>
 
-    <div className='trabajo3'>
-    
-    <Card className='trabajo4' >
-      <Card.Img variant="top " style={{ width: '50rem' }} src={js} />
-      
-    </Card>
-    
-    </div>
-    </section>
+            </section>
 
-    <section className='trabajo5'>
-    <div className='trabajo3'>
-    
-    <Card className='trabajo4' >
-      <Card.Img variant="top " style={{ width: '50rem' }} src={alfa} />
-      
-    </Card>
-    
-    </div>
-
-    <div className='trabajo3'>
-    
-    <Card className='trabajo4' >
-      <Card.Img variant="top " style={{ width: '50rem' }} src={alfa} />
-      
-    </Card>
-    
-    </div>
-    </section>
-    </motion.div>
-  )
+            <section className='container grid'>
+                <div class="contenedor">
+                    <a href="https://cheerful-custard-4a0cff.netlify.app" target='blank'>
+                        <figure>
+                            <img src={react} alt="img" />
+                            <div class="capa">
+                                <h3>React Js</h3>
+                                <Button variant="secondary" disabled>NODE JS</Button>{' '}
+                                <Button variant="secondary" disabled>REACT JS</Button>{' '}
+                                <Button variant="secondary" disabled>BOOTSTRAP REACT</Button>{' '}
+                                <Button variant="secondary" disabled>FIREBASE</Button>{' '}
+                            </div>
+                        </figure>
+                    </a>
+                </div>
+                <div class="contenedor">
+                    <a href="https://nahuelzacarias.com" target='blank'>
+                        <figure>
+                            <img src={backend} alt="img" />
+                            <div class="capa">
+                                <h3>Backend-En Construcción</h3>
+                                <Button variant="secondary" disabled>NODE JS</Button>{' '}
+                                <Button variant="secondary" disabled>POSTMAN</Button>{' '}
+                                <Button variant="secondary" disabled>EXPRESS</Button>{' '}
+                            </div>
+                        </figure>
+                    </a>
+                </div>
+            </section>
+        </motion.div>
+    )
 }
 
 export default Trabajos

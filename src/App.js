@@ -6,7 +6,6 @@ import AnimatedRoutes from "./Components/AnimatedRoutes/AnimatedRoutes";
 
 function App( ) {
 
-
   return (
     <BrowserRouter>
 
@@ -15,10 +14,7 @@ function App( ) {
     <NavBar/>
 <AnimatedRoutes/>
 
-
     </div>
-   
-
     </BrowserRouter>
   );
 }

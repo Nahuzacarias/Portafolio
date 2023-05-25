@@ -3,6 +3,8 @@
     "acercademi":{"acercademi":"About me"},
     "projects":{"projects":"projects"},
     "contacto":{"contacto":"contact me"},
-    "home":{"home":"Home"}
-    
+    "home":{"home":"Home"},
+    "acercademi2":{"acercademi2":"I am a Full-Stack developer located in Buenos Aires. Since my childhood, I have been passionate about exact sciences, which has allowed me to develop an analytical mindset and a deep interest in understanding how things work. I am a committed, well-organized person and a problem solver, which enables me to face challenges with the necessary confidence to overcome any obstacle that arises."},
+    "acercademi3":{"acercademi3":"I'm interested in the entire web development process, from front-end to back-end, and I have strong knowledge in languages and tools such as HTML, CSS, SASS, React, Node.js, and others. As a Full-Stack developer, I make sure to fully understand the objectives and needs of each project in order to create tailored and high-quality solutions. I enjoy working in a team and collaborating with other professionals to achieve exceptional results. I am a lifelong learner and always on the lookout for new challenges that allow me to continue growing professionally."}
+
     }

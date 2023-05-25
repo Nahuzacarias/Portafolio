@@ -1,41 +1,28 @@
 .imagen1{
 
-width: 30px;
-margin-left: 5px;
-box-shadow: 0 3px 5px 0px rgba(31, 10, 151, 0.2);
+width: 50px;
+margin-left: 15px;
 transition: .2s;
 margin-top: 0.5rem;
+border-radius: 30%;
+text-decoration: none;
+  
 }
 
-@keyframes shake {
-    0% { transform: translate(0, 0); }
-    25% { transform: translate(2px, 2px); }
-    50% { transform: translate(0, 0); }
-    75% { transform: translate(-2px, -2px); }
-    100% { transform: translate(0, 0); }
-  }
 
 
 .imagen1:hover{
-    transform : translateY(-3px) scale(1.05);
-    box-shadow: 0 5px 5px 0px rgba(5, 2, 22, 0.171);
-
+  transform: scale(1.2);
 }
-.icon2{
 
-
-    display: inline;
-    display: flex;
-    margin-left: 2rem;
-    flex-direction: column;
-    align-content: center;
-   
-}
 .icon{
-
-display: flex;
-display: inline-block;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #f1f1f1;
+  transition: all .4s ease-in-out;
 
 }
-
 
