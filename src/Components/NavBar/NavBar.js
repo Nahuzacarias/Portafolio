@@ -31,7 +31,7 @@ function NavBar({ subrayado, onsetUnderline,icon}) {
                             <Nav className="me-auto">
 
 
-                            <li clasName="nav-item">
+                            <li clasName="nav-item letra">
                                     <Nav.Link
                                     as={Link}
                                     to="/*"
@@ -52,8 +52,7 @@ function NavBar({ subrayado, onsetUnderline,icon}) {
                                         onMouseOver={() => setUnderline2(!subrayado)}
                                         onMouseOut={() => setUnderline2(subrayado)}
                                         aria-current="page"
-                                    >
-                                        {t("acercademi.acercademi")}
+                                    > {t("acercademi.acercademi")}
                                     </Nav.Link>
                                 </li>
 

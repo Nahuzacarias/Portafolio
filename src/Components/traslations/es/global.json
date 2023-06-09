@@ -1,10 +1,13 @@
 {
-    "main":{ "main":"Hola, soy Nahuel, y te invito a mi mundo."},
+    "main":{ "main":"Hola, soy Nahuel, desarrollador web."},
     "acercademi":{"acercademi":"Acerca de mi"},
     "projects":{"projects":"Trabajos"},
     "contacto":{"contacto":"Contacto"},
     "home":{"home":"Inicio"},
     "acercademi2":{"acercademi2":"Soy un desarrollador Full-Stack con sede en Buenos Aires. Desde mi infancia, me han apasionado las ciencias exactas, lo que me ha permitido desarrollar una mentalidad analítica y un profundo interés por entender cómo funcionan las cosas.Soy una persona comprometida, bien organizada y un resolvedor de problemas, lo que me permite enfrentar desafíos con la confianza necesaria para superar cualquier obstáculo que se presente."},
-    "acercademi3":{"acercademi3":"Me interesa todo el proceso de desarrollo web, desde el front-end hasta el back-end, y cuento con sólidos conocimientos en lenguajes y herramientas como HTML, CSS, SASS, React, Node.js y otros.Como desarrollador Full-Stack, me aseguro de entender completamente los objetivos y necesidades de cada proyecto para poder crear soluciones a medida y de alta calidad. Me gusta trabajar en equipo y colaborar con otros profesionales para lograr resultados excepcionales. Soy un ser humano que sigue aprendiendo y siempre estoy en busca de nuevos desafíos que me permitan seguir creciendo profesionalmente."}
+    "acercademi3":{"acercademi3":"Me interesa todo el proceso de desarrollo web, desde el front-end hasta el back-end, y cuento con sólidos conocimientos en lenguajes y herramientas como HTML, CSS, SASS, React, Node.js y otros.Como desarrollador Full-Stack, me aseguro de entender completamente los objetivos y necesidades de cada proyecto para poder crear soluciones a medida y de alta calidad. Me gusta trabajar en equipo y colaborar con otros profesionales para lograr resultados excepcionales. Soy un ser humano que sigue aprendiendo y siempre estoy en busca de nuevos desafíos que me permitan seguir creciendo profesionalmente."},
+    "desarrolloweb":{"desarrolloweb":"Desarrollo Web"},
+    "backend":{"backend":"Backend-En construcción"},
+    "opp":{"opp":"Programación orientada a objetos"}
     
     }
